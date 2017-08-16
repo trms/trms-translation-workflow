@@ -2,5 +2,14 @@
 'use strict';
 
 module.exports = {
-  name: 'trms-translation-workflow'
+  name: 'translation-workflow',
+
+  isDevelopingAddon() {
+    return true;
+  },
+  includedCommands(){
+    return {
+      'translate': require('./lib/commands/pre-translate'),
+    }
+  },
 };
