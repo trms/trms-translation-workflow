@@ -23,7 +23,10 @@
     "ember-cli-babel": "^5.1.7",
     "flip-text": "^1.1.0",
     "fs-extra": "^4.0.1",
-    "node-env-file": "^0.1.8"
+    "lodash": "^4.17.4",
+    "node-env-file": "^0.1.8",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

@@ -12,7 +12,7 @@ module.exports = {
 
   includedCommands(){
     return {
-      'translate': require('./lib/commands/pre-translate'),
+      'translate': require('./lib/commands/translate'),
     }
   },
 
@@ -21,6 +21,7 @@ module.exports = {
       this.addPackageToProject('flip-text'),
       this.addPackageToProject('fs-extra'),
       this.addPackageToProject('node-env-file'),
+      this.addPackageToProject('lodash'),
     ])
   }
 };
