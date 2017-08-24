@@ -22,6 +22,7 @@ module.exports = {
       this.addPackageToProject('fs-extra'),
       this.addPackageToProject('node-env-file'),
       this.addPackageToProject('lodash'),
+      this.addPackageToProject('promise'),
     ])
   }
 };
